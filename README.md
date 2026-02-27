@@ -1,19 +1,23 @@
-C++ Foundations Practice Repository
+# Cpp Foundations
 
-This repository contains small C++ programs built while progressing in C++. The focus is understanding the core execution model of C++.
+Practice repository containing small C++ programs focused on core language and systems concepts.
 
-Each folder represents a focused micro-implementation designed to reinforce C++ specifics.
+## Overview
 
-Projects
+Each folder in this repository is a focused micro-project designed to reinforce specific C++ concepts and runtime behavior.
 
-Mini CLI Calculator
-Incrementally rebuilt calculator exploring control flow, function dispatch, structured operation tables and input validation. Emphasizes separation between program logic and user input/output.
+## Projects
 
-File Statistics Tool
-Command line utility that analyzes a file and reports size, line count, word count and byte frequency distribution. Used to practice file streams, iteration and basic performance awareness.
+- **POSIX-Pipeline** — Unix-style process and thread behavior: `fork()`, POSIX threads, `exec()`, and parent/child coordination. Explores address space separation, thread creation, and nondeterministic scheduling.
+- **Mini-CLI-Calc** — Incremental calculator demonstrating control flow, function dispatch, operation tables, and input validation.
+- **File-Stat-Tool** — Command-line utility to report file size, line count, word count, and byte frequency distribution.
+- **Binary-Inspector** — Displays binary/hex representations of numeric values and floating-point decomposition (sign/exponent/mantissa).
+- **Struct-Based-Data-Logger** — Simple structured data recorder demonstrating struct design and file serialization.
 
-Binary Inspector
-Utility that displays binary and hexadecimal representations of numeric values, including floating point decomposition into sign, exponent and mantissa fields. Serves as preparation for later IEEE-754 exploration work.
+## Build / Usage
 
-Struct-Based Data Logger
-Simple structured data recorder for activities such as fly fishing or climbing sessions. Demonstrates struct design, file serialization concepts and data ownership boundaries without introducing classes.
+See each project folder for build instructions and examples.
+
+## License
+
+Add license information here.
